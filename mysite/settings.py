@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '25eo%@p)_00zmwy(5+xoomkri0d#pxeye0%$iiklnk9cywem$&'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 # 별표로 하면 모든 곳에서 다됨 ['naver.com'] 처럼 하면됨
 ALLOWED_HOSTS = ['*']
@@ -121,3 +121,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 #MEDIA_URL = '/media/'
+STATIC_ROOT = '/home/ikan/bookmark/static'
